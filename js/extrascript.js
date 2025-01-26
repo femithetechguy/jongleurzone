@@ -12,3 +12,12 @@
     }
     link.href = '../img/favicon.ico';
 })();
+
+(function loadheaderLeft() {
+    var headerTextLeft = document.getElementById("headerTextLeft");
+    if (!headerTextLeft) {
+        headerTextLeft = document.createElement('headerTextLeft');
+        document.head.appendChild(headerTextLeft);
+    }
+    headerTextLeft.textContent = "Jongleur Zone";
+})();
