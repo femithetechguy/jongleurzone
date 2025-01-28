@@ -58,6 +58,8 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="#song_request" class="nav-item nav-link">Song Reqeust</a>
+
             </div>
             <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
@@ -76,7 +78,8 @@
                             <li class="breadcrumb-item"><a class="text-white" href="#african">African</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#contemporary">Contemporary</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#hymn">Hymn</a></li>
-                            <!-- <li class="breadcrumb-item text-white active" aria-current="page">Hymn</li> -->
+                            <li class="breadcrumb-item"><a class="text-white" href="#song_request">Song Request</a></li>
+
                         </ol>
                     </nav>
                 </div>
@@ -285,6 +288,60 @@
         </div>
     </div>
     <!-- Hymn End -->
+
+        <!-- SongRequest start -->
+        <div class="container-xxl py-5" id="song_request">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Song Request</h6>
+                    <h1 class="mb-5">Song Request</h1>
+                </div>
+                <!-- <div class="row g-4 justify-content-center"> -->
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="song_title" placeholder="You are God">
+                                             <label for="name">Song Title : {E.g. You are God}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="song_author" placeholder="Nathaniel Bassey">
+                                            <label for="email">Song Author  : {E.g. Nathaniel Bassey}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="song_link" placeholder="Song Link">
+                                            <label for="subject">Song Link: {E.g. https://www.youtube.com/v=euU}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="song_category" placeholder="Song Category">
+                                            <label for="subject">Song Category: {E.g. African, Hymn, Contemporary}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="song_lyrics" style="height: 150px"></textarea>
+                                            <label for="message"> Song Lyrics : {E.g. Verse, Chorus, Bridge in seperate paragraph.}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button id="song_request_btn" class="btn btn-primary w-100 py-3" type="submit">Request Song</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- SongRequest End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
