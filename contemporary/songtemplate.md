@@ -57,7 +57,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.html" class="nav-item nav-link active">Home</a>
+                <a href="../index.html" class="nav-item nav-link active"><i class="bi bi-house"></i> Home</a>
                 <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
                 <a href="../songs.html" class="nav-item nav-link">Songs</a>
                 <div class="nav-item dropdown">
