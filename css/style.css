@@ -436,18 +436,18 @@
 }
 
 .iframe-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto0;
+    margin: auto0; */
     /* height: 100vh; */
 }
 
 iframe {
-    width: inherit;
-    height: inherit;
-    min-width: 500px;
+    /* width: inherit; */
+    /* height: inherit; */
+    /* min-width: 500px;
     min-height: 450px;
     border: 2px solid #ddd;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
 }
