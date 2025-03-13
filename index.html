@@ -1,1011 +1,1434 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title></title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> -->
 
     <!-- Libraries Stylesheet -->
     <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- Link Extra Script -->
     <script type="text/javascript" src="js/extrascript.js"></script>
 
     <!-- Animate Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary" id="headerTextLeft"><i class="fa fa-book me-3"></i></h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link"><i class="bi bi-house"></i> Home</a>
-                <a href="#schedule" class="nav-item nav-link"><i class="bi bi-calendar3"></i> Schedule</a>
-                <a href="#blog" class="nav-item nav-link"><i class="bi bi-journal-text"></i> Blog</a>
-                <a href="#song_request" class="nav-item nav-link"><i class="bi bi-send-plus"></i> Request</a>
-
-            </div>
-            <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a> -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <h2 class="m-0 text-primary" id="headerTextLeft">
+          <i class="fa fa-book me-3"></i>
+        </h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link"
+            ><i class="bi bi-house"></i> Home</a
+          >
+          <a href="#schedule" class="nav-item nav-link"
+            ><i class="bi bi-calendar3"></i> Schedule</a
+          >
+          <a href="#blog" class="nav-item nav-link"
+            ><i class="bi bi-journal-text"></i> Blog</a
+          >
+          <a href="#song_request" class="nav-item nav-link"
+            ><i class="bi bi-send-plus"></i> Request</a
+          >
         </div>
+        <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a> -->
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Song List</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#african"><i
-                                        class="bi bi-globe-europe-africa"></i></a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#contemporary"><i
-                                        class="bi bi-globe-americas"></i></a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#hymn"><i
-                                        class="bi bi-book-half"></i></a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#schedule"><i
-                                        class="bi bi-calendar3"></i></a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#blog"><i
-                                        class="bi bi-journal-text"></i></a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#song_request"><i
-                                        class="bi bi-send-plus"></i></a></li>
-
-                        </ol>
-                    </nav>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1 class="display-3 text-white animated slideInDown">Song List</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#african"
+                    ><i class="bi bi-globe-europe-africa"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#contemporary"
+                    ><i class="bi bi-globe-americas"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#hymn"
+                    ><i class="bi bi-book-half"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#schedule"
+                    ><i class="bi bi-calendar3"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#blog"
+                    ><i class="bi bi-journal-text"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="#song_request"
+                    ><i class="bi bi-send-plus"></i
+                  ></a>
+                </li>
+              </ol>
+            </nav>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Header End -->
     <!-- African Start -->
     <div class="container-xxl py-5" id="african">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">African</h6>
-                <h1 class="mb-5">African songs</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="row gy-2 gx-4 mb-4">
-                    <div class="col-sm-3">
-                        <a href="https://www.azlyrics.com/lyrics/" target="_blank">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Resource - AZ Lyrics </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/tambirajehova.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Tambira Jehova - Joyous
-                                celebration</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/jesus_waleadenuga.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jesus - Wale Adenuga</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/thisisyourpraise_waleadenuga.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>This is your praise -
-                                Wale Adenuga</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/jehovaeh_ucheagu.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jehova Eh -
-                                Uche Agu</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/emmanuelhasdoneitagain_gabrieleziashi.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Emmaneul - Gabriel
-                                Eziashi</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/halleluyahpraisemedley_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Halleluyah Praise Medley
-                                - Several</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/baba_sonniebadu.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Baba o - Sonnie Badu
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/hailmyjesus_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Hail My Jesus(Ebube Dike)
-                                - Several
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/ezeebube_neonadejo.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Eze ebube - Neon Adejo
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/thiskindgod_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>This kind God - Several
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/toomanyreasons_mercychinwo.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Too many reasons - Mercy
-                                Chinwo
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/caribbeanmedley_donniemcclurkin.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Caribbean Medley - Donnie
-                                McClurkin
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="african/africanmedley_tyetribbet.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>African Medley - Tye
-                                Tribbet
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            African
+          </h6>
+          <h1 class="mb-5">African songs</h1>
         </div>
+        <div class="row g-4 justify-content-center">
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-3">
+              <a href="https://www.azlyrics.com/lyrics/" target="_blank">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Resource -
+                  AZ Lyrics
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/tambirajehova.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Tambira
+                  Jehova - Joyous celebration
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/jesus_waleadenuga.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Jesus -
+                  Wale Adenuga
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/thisisyourpraise_waleadenuga.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>This is
+                  your praise - Wale Adenuga
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/jehovaeh_ucheagu.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Jehova Eh -
+                  Uche Agu
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/emmanuelhasdoneitagain_gabrieleziashi.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Emmaneul -
+                  Gabriel Eziashi
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/halleluyahpraisemedley_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Halleluyah
+                  Praise Medley - Several
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/baba_sonniebadu.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Baba o -
+                  Sonnie Badu
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/hailmyjesus_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Hail My
+                  Jesus(Ebube Dike) - Several
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/ezeebube_neonadejo.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Eze ebube -
+                  Neon Adejo
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/thiskindgod_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>This kind
+                  God - Several
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/toomanyreasons_mercychinwo.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Too many
+                  reasons - Mercy Chinwo
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/caribbeanmedley_donniemcclurkin.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Caribbean
+                  Medley - Donnie McClurkin
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="african/africanmedley_tyetribbet.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>African
+                  Medley - Tye Tribbet
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- African End -->
 
     <!-- Contemporary start -->
     <div class="container-xxl py-5" id="contemporary">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contemporary</h6>
-                <h1 class="mb-5">Contemporary Songs</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="row gy-2 gx-4 mb-4">
-                    <div class="col-sm-3">
-                        <a href="contemporary/everypraise_hezekiahwalker.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Every Praise - Hezekiah
-                                Walker</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/morethanasong_dunsinoyekan.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>More Than A Song - Dunsin
-                                Oyekan</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/myworship_philthompson.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>My Worship - Phil
-                                Thompson</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/youaregod_nathanielbassey.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>You are God - Nathaniel
-                                Bassey</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/allheavensdeclare_hosannamusic.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>All Heavens Declare -
-                                Hosanna Music</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/beautifulbeyonddescription_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Beautiful Beyond
-                                Description</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/halleluyahadnusdei_michaelwsmith.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Halleluyah(Agnus Dei) -
-                                M. W. Smith</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/ourgod_christomlin.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Our God - Chris Tomlin
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/praise_elevationworship.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Praise - Elevation
-                                Worship</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/jesusatthecenterofitall_israelhoughton.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jesus At The Center -
-                                Israel Houghton</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/elohim_mogmusic.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Elohim - MOG Music</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/letusrejoice_paulwilbur.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Let Us Rejoice - Paul
-                                Wilbur</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/singforjoy_donmoen.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Sing For Joy - Don Moen
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/worthyisthelamb_hillsong.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Worthy - Hillsong</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/yahwehwebowdown_davidg.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Yahweh - David G</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/arise_donmoen.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Arise - Don Moen</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/theanthem_todddulaney.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>The Anthem - Todd Dulaney
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/youaregod_nathanielbassey.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>You are God - Nathaniel
-                                Bassey
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/opentheeyesofmyheart_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Open the eyes of my heart
-                                - Several
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/thankyoulord_several.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Thank You Lord - Several
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="contemporary/holyforever_cecewinans.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Holy Forever - Cece
-                                Winans
-                            </p>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Contemporary
+          </h6>
+          <h1 class="mb-5">Contemporary Songs</h1>
         </div>
+        <div class="row g-4 justify-content-center">
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-3">
+              <a href="contemporary/everypraise_hezekiahwalker.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Every
+                  Praise - Hezekiah Walker
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/morethanasong_dunsinoyekan.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>More Than A
+                  Song - Dunsin Oyekan
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/myworship_philthompson.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>My Worship
+                  - Phil Thompson
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/youaregod_nathanielbassey.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>You are God
+                  - Nathaniel Bassey
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/allheavensdeclare_hosannamusic.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>All Heavens
+                  Declare - Hosanna Music
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/beautifulbeyonddescription_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Beautiful
+                  Beyond Description
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/halleluyahadnusdei_michaelwsmith.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i
+                  >Halleluyah(Agnus Dei) - M. W. Smith
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/ourgod_christomlin.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Our God -
+                  Chris Tomlin
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/praise_elevationworship.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Praise -
+                  Elevation Worship
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a
+                href="contemporary/jesusatthecenterofitall_israelhoughton.html"
+              >
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Jesus At
+                  The Center - Israel Houghton
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/elohim_mogmusic.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Elohim -
+                  MOG Music
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/letusrejoice_paulwilbur.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Let Us
+                  Rejoice - Paul Wilbur
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/singforjoy_donmoen.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Sing For
+                  Joy - Don Moen
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/worthyisthelamb_hillsong.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Worthy -
+                  Hillsong
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/yahwehwebowdown_davidg.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Yahweh -
+                  David G
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/arise_donmoen.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Arise - Don
+                  Moen
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/theanthem_todddulaney.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>The Anthem
+                  - Todd Dulaney
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/youaregod_nathanielbassey.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>You are God
+                  - Nathaniel Bassey
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/opentheeyesofmyheart_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Open the
+                  eyes of my heart - Several
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/thankyoulord_several.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Thank You
+                  Lord - Several
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contemporary/holyforever_cecewinans.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Holy
+                  Forever - Cece Winans
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Contemporary End -->
 
-
     <!-- Hymn start -->
     <div class="container-xxl py-5" id="hymn">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Hymn</h6>
-                <h1 class="mb-5">Hymnal Songs</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="row gy-2 gx-4 mb-4">
-                    <div class="col-sm-3">
-                        <a href="https://gccsatx.com/hymns/" target="_blank">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Resource - Hymn Lyrics
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/amazinggrace.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Amazing Grace</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/adebtortomercyalone.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>A Debtor To Mercy Alone
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/atthecross.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>At The Cross</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/countyourblessings.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Count Your Blessings</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/greatisthyfaithfulness.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Great Is Thy faithfulness
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/howgreatthouart.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>How Great Thou Art</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/itiswellwithmysoul.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>It Is Well With My Soul
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/jesuspaiditall.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jesus Paid It All</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/justasiam.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Just As I Am</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/myhopeisbuiltonnothingless.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>My Hope Is Built On
-                                Nothing Less</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/nearthecross.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jesus Keep Me Near The
-                                Cross</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/sweethourofprayer.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Sweet Hour Of Prayer</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/daybyday.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Day By Day</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/trustandobey.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Trust & Obey</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/whatafriendwehaveinjesus.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>What A Friend We Have In
-                                Jesus</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/praisehimpraisehim.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Praise Him Praise Him!
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="/hymn/tissosweettotrustinjesus.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Tis So Sweet To Trust In
-                                Jesus!</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="hymn/theoldruggedcross.html">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>The Old Rugged Cross</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TBD</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TBD</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TBD</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TBD</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TBD</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Hymn
+          </h6>
+          <h1 class="mb-5">Hymnal Songs</h1>
         </div>
+        <div class="row g-4 justify-content-center">
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-3">
+              <a href="https://gccsatx.com/hymns/" target="_blank">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Resource -
+                  Hymn Lyrics
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/amazinggrace.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Amazing
+                  Grace
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/adebtortomercyalone.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>A Debtor To
+                  Mercy Alone
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/atthecross.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>At The
+                  Cross
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/countyourblessings.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Count Your
+                  Blessings
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/greatisthyfaithfulness.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Great Is
+                  Thy faithfulness
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/howgreatthouart.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>How Great
+                  Thou Art
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/itiswellwithmysoul.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>It Is Well
+                  With My Soul
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/jesuspaiditall.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Jesus Paid
+                  It All
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/justasiam.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Just As I
+                  Am
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/myhopeisbuiltonnothingless.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>My Hope Is
+                  Built On Nothing Less
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/nearthecross.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Jesus Keep
+                  Me Near The Cross
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/sweethourofprayer.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Sweet Hour
+                  Of Prayer
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/daybyday.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Day By Day
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/trustandobey.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Trust &
+                  Obey
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/whatafriendwehaveinjesus.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>What A
+                  Friend We Have In Jesus
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/praisehimpraisehim.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Praise Him
+                  Praise Him!
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="/hymn/tissosweettotrustinjesus.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Tis So
+                  Sweet To Trust In Jesus!
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="hymn/theoldruggedcross.html">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>The Old
+                  Rugged Cross
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>TBD
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>TBD
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>TBD
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>TBD
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>TBD
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Hymn End -->
 
     <!-- Schedule start -->
     <div class="container-xxl py-5" id="schedule">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Schedule</h6>
-                <h1 class="mb-5">Schedule</h1>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover">
-                    <thead class="table-primary">
-                        <tr>
-                            <th scope="col">Date</th>
-                            <th scope="col">Minister</th>
-                            <th scope="col">Hymn</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Sun, Mar 2 2025</td>
-                            <td>Sis Josephine</td>
-                            <td><a href="hymn/countyourblessings.html">Count Your Blessings</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Mar 9 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/howgreatthouart.html">How Great Thou Art</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Mar 16 2025</td>
-                            <td>Sis Josephine</td>
-                            <td><a href="hymn/itiswellwithmysoul.html">It is Well With My Soul</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Mar 23 2025</td>
-                            <td>Sis Abeena</td>
-                            <td> <a href="hymn/amazinggrace.html">Amazing grace</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Mar 30 2025</td>
-                            <td> Sis Abeena</td>
-                            <td><a href="hymn/adebtortomercyalone.html">A Debtor To Mercy Alone</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Apr 6 2025</td>
-                            <td>Dcns Joke</td>
-                            <td><a href="hymn/greatisthyfaithfulness.html">Great Is Thy Faithfulness</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Apr 13 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/howgreatthouart.html">How great Thou Art</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Apr 20 2025</td>
-                            <td>Sis Josephine</td>
-                            <td><a href="hymn/itiswellwithmysoul.html">It Is Well With My Soul</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Apr 27 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/jesuspaiditall.html">Jesus Paid It All</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, May 4 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/justasiam.html">Just As I Am</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, May 11 2025</td>
-                            <td>Dcns Joke</td>
-                            <td><a href="hymn/myhopeisbuiltonnothingless.html">My Hope Is Built On Nothing Less</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, May 18 2025</td>
-                            <td>Sis Abeena </td>
-                            <td><a href="hymn/nearthecross.html">Jesus Keep Me Near The Cross</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, May 25 2025</td>
-                            <td>Sis Josephine</td>
-                            <td><a href="hymn/sweethourofprayer.html">Sweet Hour Of Prayer</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jun 1 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/daybyday.html">Day By Day</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jun 8 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/trustandobey.html">Trust & Obey</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jun 15 2025</td>
-                            <td>Dcns Joke</td>
-                            <td><a href="hymn/whatafriendwehaveinjesus.html">What A Friend We Have In Jesus</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jun 22 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/praisehimpraisehim.html">Praise Him Praise Him</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jun 29 2025</td>
-                            <td>Sis Josephine</td>
-                            <td><a href="hymn/tissosweettotrustinjesus.html">Tis So Sweet To Trust In Jesus</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jul 6 2025</td>
-                            <td>Sis Abeena</td>
-                            <td><a href="hymn/theoldruggedcross.html">The Old Rugged Cross</a></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jul 13 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jul 20 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Jul 27 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Aug 3 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Aug 10 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Aug 17 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Aug 24 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Aug 31 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Sep 7 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Sep 14 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Sep 21 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Sep 28 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Oct 5 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Oct 12 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Oct 19 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Oct 26 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Nov 2 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Nov 9 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Nov 16 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Nov 23 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Nov 30 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Dec 7 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Dec 14 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Dec 21 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Sun, Dec 28 2025</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Schedule
+          </h6>
+          <h1 class="mb-5">Schedule</h1>
         </div>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Minister</th>
+                <th scope="col">Hymn</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sun, Mar 2 2025</td>
+                <td>Sis Josephine</td>
+                <td>
+                  <a href="hymn/countyourblessings.html"
+                    >Count Your Blessings</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Mar 9 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/howgreatthouart.html">How Great Thou Art</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Mar 16 2025</td>
+                <td>Sis Josephine</td>
+                <td>
+                  <a href="hymn/itiswellwithmysoul.html"
+                    >It is Well With My Soul</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Mar 23 2025</td>
+                <td>Sis Abeena</td>
+                <td><a href="hymn/amazinggrace.html">Amazing grace</a></td>
+              </tr>
+              <tr>
+                <td>Sun, Mar 30 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/adebtortomercyalone.html"
+                    >A Debtor To Mercy Alone</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Apr 6 2025</td>
+                <td>Dcns Joke</td>
+                <td>
+                  <a href="hymn/greatisthyfaithfulness.html"
+                    >Great Is Thy Faithfulness</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Apr 13 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/howgreatthouart.html">How great Thou Art</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Apr 20 2025</td>
+                <td>Sis Josephine</td>
+                <td>
+                  <a href="hymn/itiswellwithmysoul.html"
+                    >It Is Well With My Soul</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Apr 27 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/jesuspaiditall.html">Jesus Paid It All</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, May 4 2025</td>
+                <td>Sis Abeena</td>
+                <td><a href="hymn/justasiam.html">Just As I Am</a></td>
+              </tr>
+              <tr>
+                <td>Sun, May 11 2025</td>
+                <td>Dcns Joke</td>
+                <td>
+                  <a href="hymn/myhopeisbuiltonnothingless.html"
+                    >My Hope Is Built On Nothing Less</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, May 18 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/nearthecross.html"
+                    >Jesus Keep Me Near The Cross</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, May 25 2025</td>
+                <td>Sis Josephine</td>
+                <td>
+                  <a href="hymn/sweethourofprayer.html">Sweet Hour Of Prayer</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Jun 1 2025</td>
+                <td>Sis Abeena</td>
+                <td><a href="hymn/daybyday.html">Day By Day</a></td>
+              </tr>
+              <tr>
+                <td>Sun, Jun 8 2025</td>
+                <td>Sis Abeena</td>
+                <td><a href="hymn/trustandobey.html">Trust & Obey</a></td>
+              </tr>
+              <tr>
+                <td>Sun, Jun 15 2025</td>
+                <td>Dcns Joke</td>
+                <td>
+                  <a href="hymn/whatafriendwehaveinjesus.html"
+                    >What A Friend We Have In Jesus</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Jun 22 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/praisehimpraisehim.html"
+                    >Praise Him Praise Him</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Jun 29 2025</td>
+                <td>Sis Josephine</td>
+                <td>
+                  <a href="hymn/tissosweettotrustinjesus.html"
+                    >Tis So Sweet To Trust In Jesus</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Jul 6 2025</td>
+                <td>Sis Abeena</td>
+                <td>
+                  <a href="hymn/theoldruggedcross.html">The Old Rugged Cross</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Sun, Jul 13 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Jul 20 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Jul 27 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Aug 3 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Aug 10 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Aug 17 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Aug 24 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Aug 31 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Sep 7 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Sep 14 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Sep 21 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Sep 28 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Oct 5 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Oct 12 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Oct 19 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Oct 26 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Nov 2 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Nov 9 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Nov 16 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Nov 23 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Nov 30 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Dec 7 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Dec 14 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Dec 21 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sun, Dec 28 2025</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
     <!-- Schedule End -->
 
     <!-- Blog start -->
     <div class="container-xxl py-5" id="blog">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
-                <h1 class="mb-5">Blog</h1>
-            </div>
-
-            <div class="accordion" id="blogAccordion">
-                <!-- Blog Entry 1 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading1">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                            🌍 The Impact of African Gospel Music
-                        </button>
-                    </h2>
-                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>African Gospel’s Global Influence
-                            </h5>
-                            <p>African gospel music has transformed the global worship landscape with its unique
-                                rhythms, powerful vocals, and deep spiritual expression...</p>
-                            <a href="blog/blog.html#blog_entry_1" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Entry 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                            🎵 Modern Worship Songs vs. Traditional Hymns
-                        </button>
-                    </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Bridging the Gap</h5>
-                            <p>While both modern worship songs and traditional hymns have their place in worship,
-                                understanding their unique characteristics...</p>
-                            <a href="blog/blog.html#blog_entry_2" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Entry 3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                            📖 Introduction to Church Hymns
-                        </button>
-                    </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>The Beauty of Traditional Hymns</h5>
-                            <p>Church hymns have been a cornerstone of Christian worship for centuries. They combine
-                                deep theological truths with memorable melodies...</p>
-                            <a href="blog/blog.html#blog_entry_3" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Entry 4 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                            🎵 The Heart of Worship: Leading with Passion and Purpose
-                        </button>
-                    </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>How to inspire authentic worship in your choir
-                            </h5>
-                            <p>Worship is more than just singing—it’s about leading people into a deeper connection with
-                                God. In this post, we’ll explore how choir leaders can cultivate an atmosphere of true
-                                worship...</p>
-                            <a href="blog/blog.html#blog_entry_4" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 5 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                            🎶 Vocal Warm-Ups Every Worship Team Should Use
-                        </button>
-                    </h2>
-                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Essential exercises to improve vocal performance
-                            </h5>
-                            <p>Great singing starts with proper warm-ups! Learn the best vocal exercises that will help
-                                your choir maintain vocal health and sing with excellence...</p>
-                            <a href="blog/blog.html#blog_entry_5" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 6 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading6">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                            🎤 Building a Unified Choir: Tips for Teamwork and Harmony
-                        </button>
-                    </h2>
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>How to create a strong and cohesive choir
-                            </h5>
-                            <p>A choir that sings well together stays together! Discover practical ways to improve
-                                unity, blend voices, and strengthen relationships within your choir...</p>
-                            <a href="blog/blog.html#blog_entry_6" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 7 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading7">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                            🎼 Choosing the Right Worship Songs for Your Church
-                        </button>
-                    </h2>
-                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>A guide to selecting impactful worship music
-                            </h5>
-                            <p>Not every song fits every congregation. This post covers key factors to consider when
-                                choosing worship songs that resonate with your church community...</p>
-                            <a href="blog/blog.html#blog_entry_7" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 8 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading8">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                            🙌 Overcoming Stage Fright: Confidence for Worship Leaders
-                        </button>
-                    </h2>
-                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>How to lead worship with boldness and assurance
-                            </h5>
-                            <p>Struggle with stage fright? You’re not alone! Here are practical tips for overcoming fear
-                                and leading worship with confidence and authenticity...</p>
-                            <a href="blog/blog.html#blog_entry_8" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 9 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading9">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                            🎶 The Role of a Choir in Enhancing Worship Atmosphere
-                        </button>
-                    </h2>
-                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Why choirs are essential in worship services
-                            </h5>
-                            <p>A powerful choir can elevate the worship experience. Learn how harmonies, vocal
-                                arrangements, and choir leadership contribute to a spirit-filled service...</p>
-                            <a href="blog/blog.html#blog_entry_9" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 10 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading10">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                            🎵 How to Improve Your Choir’s Vocal Blending
-                        </button>
-                    </h2>
-                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Techniques to achieve a more unified sound
-                            </h5>
-                            <p>Blending voices beautifully is an art. This post shares vocal techniques, breathing
-                                exercises, and tuning tips to help your choir achieve perfect harmony...</p>
-                            <a href="blog/blog.html#blog_entry_10" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 11 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading11">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                            🙏 Worship Leading vs. Performance: Keeping the Focus on God
-                        </button>
-                    </h2>
-                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Finding the balance between skill and spiritual connection
-                            </h5>
-                            <p>How do you ensure worship leading doesn’t turn into just another performance? This post
-                                explores maintaining a worshipful heart while striving for musical excellence...</p>
-                            <a href="blog/blog.html#blog_entry_11" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 12 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading12">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                            🎶 How to Train and Mentor New Worship Singers
-                        </button>
-                    </h2>
-                    <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Helping new singers grow in skill and confidence
-                            </h5>
-                            <p>Welcoming new members into the choir? Here’s how to mentor and develop their vocal
-                                abilities while nurturing their passion for worship...</p>
-                            <a href="blog/blog.html#blog_entry_12" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Entry 13 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading13">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                            🔄 Handling Worship Transitions Smoothly
-                        </button>
-                    </h2>
-                    <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
-                        data-bs-parent="#blogAccordion">
-                        <div class="accordion-body">
-                            <h5>Creating seamless song flows and worship moments
-                            </h5>
-                            <p>Transitions between songs, prayer, and spontaneous worship can be tricky. Learn how to
-                                navigate them smoothly for a more impactful worship experience....</p>
-                            <a href="blog/blog.html#blog_entry_13" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Blog
+          </h6>
+          <h1 class="mb-5">Blog</h1>
         </div>
+
+        <div class="accordion" id="blogAccordion">
+          <!-- Blog Entry 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse1"
+                aria-expanded="true"
+                aria-controls="collapse1"
+              >
+                🌍 The Impact of African Gospel Music
+              </button>
+            </h2>
+            <div
+              id="collapse1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="heading1"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>African Gospel’s Global Influence</h5>
+                <p>
+                  African gospel music has transformed the global worship
+                  landscape with its unique rhythms, powerful vocals, and deep
+                  spiritual expression...
+                </p>
+                <a href="blog/blog.html#blog_entry_1" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Entry 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse2"
+                aria-expanded="false"
+                aria-controls="collapse2"
+              >
+                🎵 Modern Worship Songs vs. Traditional Hymns
+              </button>
+            </h2>
+            <div
+              id="collapse2"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading2"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Bridging the Gap</h5>
+                <p>
+                  While both modern worship songs and traditional hymns have
+                  their place in worship, understanding their unique
+                  characteristics...
+                </p>
+                <a href="blog/blog.html#blog_entry_2" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Entry 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse3"
+                aria-expanded="false"
+                aria-controls="collapse3"
+              >
+                📖 Introduction to Church Hymns
+              </button>
+            </h2>
+            <div
+              id="collapse3"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading3"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>The Beauty of Traditional Hymns</h5>
+                <p>
+                  Church hymns have been a cornerstone of Christian worship for
+                  centuries. They combine deep theological truths with memorable
+                  melodies...
+                </p>
+                <a href="blog/blog.html#blog_entry_3" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Entry 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse4"
+                aria-expanded="false"
+                aria-controls="collapse4"
+              >
+                🎵 The Heart of Worship: Leading with Passion and Purpose
+              </button>
+            </h2>
+            <div
+              id="collapse4"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading4"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>How to inspire authentic worship in your choir</h5>
+                <p>
+                  Worship is more than just singing—it’s about leading people
+                  into a deeper connection with God. In this post, we’ll explore
+                  how choir leaders can cultivate an atmosphere of true
+                  worship...
+                </p>
+                <a href="blog/blog.html#blog_entry_4" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse5"
+                aria-expanded="false"
+                aria-controls="collapse5"
+              >
+                🎶 Vocal Warm-Ups Every Worship Team Should Use
+              </button>
+            </h2>
+            <div
+              id="collapse5"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading5"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Essential exercises to improve vocal performance</h5>
+                <p>
+                  Great singing starts with proper warm-ups! Learn the best
+                  vocal exercises that will help your choir maintain vocal
+                  health and sing with excellence...
+                </p>
+                <a href="blog/blog.html#blog_entry_5" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse6"
+                aria-expanded="false"
+                aria-controls="collapse6"
+              >
+                🎤 Building a Unified Choir: Tips for Teamwork and Harmony
+              </button>
+            </h2>
+            <div
+              id="collapse6"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading6"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>How to create a strong and cohesive choir</h5>
+                <p>
+                  A choir that sings well together stays together! Discover
+                  practical ways to improve unity, blend voices, and strengthen
+                  relationships within your choir...
+                </p>
+                <a href="blog/blog.html#blog_entry_6" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 7 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading7">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse7"
+                aria-expanded="false"
+                aria-controls="collapse7"
+              >
+                🎼 Choosing the Right Worship Songs for Your Church
+              </button>
+            </h2>
+            <div
+              id="collapse7"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading7"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>A guide to selecting impactful worship music</h5>
+                <p>
+                  Not every song fits every congregation. This post covers key
+                  factors to consider when choosing worship songs that resonate
+                  with your church community...
+                </p>
+                <a href="blog/blog.html#blog_entry_7" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 8 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading8">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse8"
+                aria-expanded="false"
+                aria-controls="collapse8"
+              >
+                🙌 Overcoming Stage Fright: Confidence for Worship Leaders
+              </button>
+            </h2>
+            <div
+              id="collapse8"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading8"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>How to lead worship with boldness and assurance</h5>
+                <p>
+                  Struggle with stage fright? You’re not alone! Here are
+                  practical tips for overcoming fear and leading worship with
+                  confidence and authenticity...
+                </p>
+                <a href="blog/blog.html#blog_entry_8" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 9 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading9">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse9"
+                aria-expanded="false"
+                aria-controls="collapse9"
+              >
+                🎶 The Role of a Choir in Enhancing Worship Atmosphere
+              </button>
+            </h2>
+            <div
+              id="collapse9"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading9"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Why choirs are essential in worship services</h5>
+                <p>
+                  A powerful choir can elevate the worship experience. Learn how
+                  harmonies, vocal arrangements, and choir leadership contribute
+                  to a spirit-filled service...
+                </p>
+                <a href="blog/blog.html#blog_entry_9" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 10 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading10">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse10"
+                aria-expanded="false"
+                aria-controls="collapse10"
+              >
+                🎵 How to Improve Your Choir’s Vocal Blending
+              </button>
+            </h2>
+            <div
+              id="collapse10"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading10"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Techniques to achieve a more unified sound</h5>
+                <p>
+                  Blending voices beautifully is an art. This post shares vocal
+                  techniques, breathing exercises, and tuning tips to help your
+                  choir achieve perfect harmony...
+                </p>
+                <a href="blog/blog.html#blog_entry_10" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 11 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading11">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse11"
+                aria-expanded="false"
+                aria-controls="collapse11"
+              >
+                🙏 Worship Leading vs. Performance: Keeping the Focus on God
+              </button>
+            </h2>
+            <div
+              id="collapse11"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading11"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>
+                  Finding the balance between skill and spiritual connection
+                </h5>
+                <p>
+                  How do you ensure worship leading doesn’t turn into just
+                  another performance? This post explores maintaining a
+                  worshipful heart while striving for musical excellence...
+                </p>
+                <a href="blog/blog.html#blog_entry_11" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 12 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading12">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse12"
+                aria-expanded="false"
+                aria-controls="collapse12"
+              >
+                🎶 How to Train and Mentor New Worship Singers
+              </button>
+            </h2>
+            <div
+              id="collapse12"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading12"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Helping new singers grow in skill and confidence</h5>
+                <p>
+                  Welcoming new members into the choir? Here’s how to mentor and
+                  develop their vocal abilities while nurturing their passion
+                  for worship...
+                </p>
+                <a href="blog/blog.html#blog_entry_12" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Blog Entry 13 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading13">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse13"
+                aria-expanded="false"
+                aria-controls="collapse13"
+              >
+                🔄 Handling Worship Transitions Smoothly
+              </button>
+            </h2>
+            <div
+              id="collapse13"
+              class="accordion-collapse collapse"
+              aria-labelledby="heading13"
+              data-bs-parent="#blogAccordion"
+            >
+              <div class="accordion-body">
+                <h5>Creating seamless song flows and worship moments</h5>
+                <p>
+                  Transitions between songs, prayer, and spontaneous worship can
+                  be tricky. Learn how to navigate them smoothly for a more
+                  impactful worship experience....
+                </p>
+                <a href="blog/blog.html#blog_entry_13" class="btn btn-primary"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Blog End -->
 
     <!-- SongRequest start -->
     <div class="container-xxl py-5" id="song_request">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Song Request</h6>
-                <h1 class="mb-5">Song Request</h1>
-                <h4 class="mb-5"> <em>Coming Soon...</em> </h4>
-            </div>
-            <!-- <div class="row gy-2 gx-4 mb-4">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Song Request
+          </h6>
+          <h1 class="mb-5">Song Request</h1>
+          <h4 class="mb-5"><em>Coming Soon...</em></h4>
+        </div>
+        <!-- <div class="row gy-2 gx-4 mb-4">
                 <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.5s"
                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <form>
@@ -1045,34 +1468,43 @@
                     </form>
                 </div>
             </div> -->
-        </div>
+      </div>
     </div>
     <!-- SongRequest End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-1">
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy;
-                        <script>document.write(new Date().getFullYear())</script> Crafted With <i
-                            class="bi bi-heart"></i> By <a class="border-bottom" href="https://femithetechguy.com/"
-                            target="_blank"> Tech Guy</a>
-                    </div>
-
-                </div>
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-1"></div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Crafted With <i class="bi bi-heart"></i> By
+              <a
+                class="border-bottom"
+                href="https://femithetechguy.com/"
+                target="_blank"
+              >
+                Tech Guy</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -1088,6 +1520,5 @@
     <script src="js/main.js"></script>
     <!-- Link Extra Script -->
     <script type="text/javascript" src="js/extrascript.js"></script>
-</body>
-
+  </body>
 </html>
