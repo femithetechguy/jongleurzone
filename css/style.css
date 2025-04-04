@@ -371,9 +371,9 @@
 
 /*** Footer ***/
 .footer{
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
-    height: 20px;
+    /* height: 20px; */
 }
 
 .footer .btn.btn-social {
